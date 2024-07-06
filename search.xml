@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/ZhaoJun.github.io/2024/07/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>利用Hexo搭建个人博客</title>
+    <url>/ZhaoJun.github.io/2024/07/05/node-js/</url>
+    <content><![CDATA[<p>记录如何利用 Hexo 和 Next 主题在 Windows 11 上搭建个人博客。</p>
+<p>在其他开始环节之前</p>
+<h1 id="了解-Hexo"><a href="#了解-Hexo" class="headerlink" title="了解 Hexo"></a>了解 Hexo</h1><!-- ## Hexo  -->
+<p>Hexo 是一个快速、简洁且高效的博客框架，其使用 Markdown 解析文章，基本在几秒内，即可利用靓丽的主题生成静态网页。其主要功能可归纳如下：</p>
+<ol>
+<li><strong>生成静态文件</strong>：Hexo 将 Markdown 文件转换成静态的 HTML、CSS 和 JavaScript 文件；</li>
+<li><strong>插件和主题</strong>：Hexo 支持各种插件和主题，可以扩展功能和美化博客，其中 <strong>Next</strong> 主题是一款功能比较完善、使用人数较多并且至今仍在维护的主题；</li>
+<li><strong>本地服务器</strong>：Hexo 提供一个本地服务器，可以在本地预览生成的网站。</li>
+</ol>
+<p>又由于 Hexo 是用 JavaScript 编写的，并且依赖于 Node.js 运行时环境。因此，在使用 Hexo 时，你需要首先安装 Node.js，以便能够运行 Hexo 的命令和插件。而Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时环境，主要用于开发服务器端应用，其主要功能包括：</p>
+<ol>
+<li><strong>运行 JavaScript 代码</strong>：Node.js 允许在服务器端运行 JavaScript 代码，而不仅仅是在浏览器中；</li>
+<li><strong>包管理</strong>：Node.js 附带的 npm（Node Package Manager）用于管理和安装各种 JavaScript 库和工具。</li>
+</ol>
+<p>同利用 miniconda 管理 python 一样，这里使用 Fast Node Manager (fnm) 以管理 Node.js 版本，<a href="https://github.com/Schniz/fnm">fnm 获取地址</a>。</p>
+<p>另外在搭建个人博客时，时常需要对项目进行一个版本管理以及托管和部署，而这些功能可以由分布式版本控制系统Git来实现。事实上，Git的要功能包括：</p>
+<ol>
+<li><strong>版本控制</strong>：Git 可以跟踪文件的更改历史，并允许回滚到以前的版本；</li>
+<li><strong>分支管理</strong>：Git 支持创建和合并分支，使得不同的开发任务可以并行进行；</li>
+<li><strong>协作开发</strong>：GitHub 等平台基于 Git，提供代码托管和协作开发功能。</li>
+</ol>
+<p>且值得一提的是<a href="https://learngitbranching.js.org/?demo=&locale=zh_CN">Learn Git Branching</a>是学习 Git 的一个非常好的网站。</p>
+<h1 id="下载并安装Git"><a href="#下载并安装Git" class="headerlink" title="下载并安装Git"></a>下载并安装Git</h1><ol>
+<li>在<a href="https://git-scm.com/downloads">Git 官网</a> 下载对应版本的 Git ；</li>
+<li>在 Windows 11 安装 Git 时只需要跟随 Git 自带的安装引导进行安装即可，除安装路径</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+  </entry>
+</search>
