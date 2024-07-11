@@ -22,6 +22,9 @@
     <title>利用Hexo搭建个人博客</title>
     <url>/2024/07/05/node-js/</url>
     <content><![CDATA[<p>记录如何利用 Hexo 和 Next 主题在 Windows 11 上搭建个人博客。</p>
+<span id="more"></span>
+
+
 <p>在其他开始环节之前</p>
 <h1 id="了解-Hexo"><a href="#了解-Hexo" class="headerlink" title="了解 Hexo"></a>了解 Hexo</h1><!-- ## Hexo  -->
 <p>Hexo 是一个快速、简洁且高效的博客框架，其使用 Markdown 解析文章，基本在几秒内，即可利用靓丽的主题生成静态网页。其主要功能可归纳如下：</p>
